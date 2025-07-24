@@ -28,8 +28,8 @@ void generate_key(string &key, string &k1, string &k2, int *p_10, int *p8)
   string p_combined = lh + rh;
   k1 = permute(p_combined, p8, 8);
 
-  ls(lh, 1);
-  ls(rh, 1);
+  ls(lh, 2);
+  ls(rh, 2);
   p_combined = lh + rh;
   k2 = permute(p_combined, p8, 8);
 
